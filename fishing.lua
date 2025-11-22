@@ -337,9 +337,12 @@ spawn(function()
     while true do
         if DEV.autoFish and not isFishing then
             startBtn:Activate()
+
+        
         end
         wait(0.6)
     end
 end)
 
 print("FishingClient v3 loaded (Elegant UI).")
+print("Fishing.lua berhasil dijalankan!")
